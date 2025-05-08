@@ -1,0 +1,117 @@
+
+h1{
+    text-align: center;
+    color: white;
+     -webkit-text-stroke: 1px black;
+     
+}
+
+header{ 
+	padding: 30px 0 30px 0;    
+}
+
+/* Para telas pequenas (por exemplo, celular) */
+@media (max-width: 767px) {
+  main {
+    margin-left: 10px; 
+    margin-right: 10px;
+  }
+}
+
+/* Para telas maiores (por exemplo, desktop)*/
+@media (min-width: 768px) { 
+  main {
+  
+    margin-left: 40px; 
+    margin-right: 40px;
+  }
+}
+
+
+/* Para telas pequenas (por exemplo, celular) */
+@media (max-width: 767px) {
+  footer {
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-bottom: 20px;
+    
+  }
+}
+
+/* Para telas maiores (por exemplo, desktop)*/ 
+@media (min-width: 768px) {
+  footer {
+
+    margin-left: 40px; 
+    margin-right: 40px;
+    margin-bottom: 20px;  
+  }
+
+  .scrollbar {
+    height: auto;
+    max-height: 60px;
+    overflow-y: auto;
+  }
+}
+
+
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    text-align:center;
+}
+
+.form-control{
+  margin: 2px 2px 2px 2px;
+
+}
+
+:root{
+  --corPrimaria: #e3e3e4;
+  --corSecundaria: #61677A;
+  --corPrimariaB: #D8D9DA;
+  --corSecundariaB: #FFF6E0;
+}
+
+.bg-cinza{
+  background-color: var(--corPrimaria);
+}
+
+.scrollbar {
+  max-height: 560px;
+  overflow-y: auto;
+}
+
+.nav-scroll {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nav-link {
+  margin: 2px 0;
+  text-transform: capitalize;
+  color:black;
+}
+
+.nav-link:hover {
+  background-color: #dededfd5;
+}
+
+.nav-link.checked::after {
+  content: " ✔️";
+  margin-left: 5px;
+  font-weight: bold;
+  color:black;
+}
+
+
+.bigImage{
+  width: 30%;
+  height: 30%;     
+}
+
