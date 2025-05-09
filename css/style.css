@@ -63,7 +63,6 @@ h2{
 
 .form-control{
   margin: 2px 2px 2px 2px;
-
 }
 
 :root{
@@ -77,7 +76,7 @@ h2{
   background-color: var(--corPrimaria);
 }
 
-.scrollbar, .col-9 {
+.scrollbar {
     height: calc(100vh - 120px); /* Ajuste o valor para considerar a altura do header ou margens */
   overflow-y: auto;   
   }
@@ -89,7 +88,7 @@ h2{
 
 /* Webkit (Chrome, Edge, Safari) */
 .scrollbar::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
   border-radius: 10px;
 }
 
@@ -105,15 +104,9 @@ h2{
   background-clip: content-box;
 }
 
-
-  .col-9 {
-    border-top-right-radius: 10px; 
-    border-bottom-right-radius: 10px;
-  }
-
 .nav-scroll {
   background-color: #f8f9fa;
-  padding: 6px;
+  padding: 4px;
   border-radius: 10px;
 }
 
@@ -134,12 +127,10 @@ h2{
   color:black;
 }
 
-
 .bigImage{
   width: 30%;
   height: 30%;     
 }
-
 
 .bordaRedonda{
 border-radius: 10px;
