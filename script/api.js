@@ -90,11 +90,11 @@ carregarPokemons();
         </div>
         <div class="pokemon-info">
           <h2 class="name">Name: ${pokemon.name}</h2>
-          <h3 class="number">Nº ${pokemon.id}</h3>
-          <h4 class="type">Type: ${pokemon.types.map(item => tipoComEmoji(item.type.name)).join(', ')}</h4>
-          <h4 class="weight">Weight: ${pokemon.weight / 10}kg</h3>
-          <h4 class="height">Height: ${pokemon.height / 10}m</h4>
-          <h4 class="skill">Skills: ${pokemon.moves.map(item => item.move.name).slice(0, 5).join(', ')}</h4>        
+          <h4 class="number">Nº ${pokemon.id}</h4>
+          <h5 class="type">Type: ${pokemon.types.map(item => tipoComEmoji(item.type.name)).join(', ')}</h5>
+          <h5 class="weight">Weight: ${pokemon.weight / 10}kg</h5>
+          <h5 class="height">Height: ${pokemon.height / 10}m</h5>
+          <h5 class="skill">Skills: ${pokemon.moves.map(item => item.move.name).slice(0, 8).join(', ')}</h5>        
         </div>
       </div>
         

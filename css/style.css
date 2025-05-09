@@ -77,15 +77,43 @@ h2{
   background-color: var(--corPrimaria);
 }
 
-.scrollbar {
+.scrollbar, .col-9 {
     height: calc(100vh - 120px); /* Ajuste o valor para considerar a altura do header ou margens */
-  overflow-y: auto;
-   
+  overflow-y: auto;   
+  }
+
+  .scrollbar {
+  scrollbar-width: thin; /* para Firefox */
+  scrollbar-color: #ccc transparent;
+}
+
+/* Webkit (Chrome, Edge, Safari) */
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+  border: 2px solid transparent; /* cria espaço entre o thumb e o track */
+  background-clip: content-box;
+}
+
+
+  .col-9 {
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
   }
 
 .nav-scroll {
   background-color: #f8f9fa;
-  padding: 10px;
+  padding: 6px;
   border-radius: 10px;
 }
 
