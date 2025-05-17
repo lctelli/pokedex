@@ -43,7 +43,7 @@ h2{
 /* Scrollbar geral */
 .scrollbar,
 .scrollbar2 {
-  height: calc(100vh - 120px); /* Ajuste o valor para considerar a altura do header ou margens */
+  height: calc(100vh - 140px); /* Ajuste o valor para considerar a altura do header ou margens */
   overflow-y: auto;
   scrollbar-width: thin; /* para Firefox */
   scrollbar-color: #ccc transparent;
@@ -105,7 +105,7 @@ border-radius: 10px;
 /* Media query para telas com altura maior */
 @media (orientation: portrait) {
   .scrollbar {
-    height: 40vh; /* A scrollbar ocupará 40% da altura da tela */
+     height: calc(40vh - 120px);
   }
 
   .scrollbar2 {
@@ -129,7 +129,6 @@ border-radius: 10px;
     main {
     margin-left: 10px; 
     margin-right: 10px; 
-    margin-bottom: 20px;
   }
 
 }
