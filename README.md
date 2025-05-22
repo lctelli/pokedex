@@ -40,16 +40,19 @@ Esta aplicação foi criada com o objeto de aprender sobre Javascript, css e est
 - JavaScript
 - Bootstrap
 
+  ## 🔗 API
+- Os dados são consumidos da PokeAPI, uma API gratuita com informações completas sobre Pokémon.
+
   ## 📥 Como baixar
 
-  1. **Clone o repositório:**
-
+1. Clone o repositório:
+   
 ```bash
 git clone https://github.com/lctelli/pokedex.git
 ```
+
 2. Navegue até o diretório do projeto.
 3. Abra o arquivo `index.html` em seu navegador.
 
-## 📞 Contato
-
-- **GitHub**: [lctelli](https://github.com/lctelli)
+**Ou então**
+Você pode acessar digitando (https://lctelli.github.io/pokedex/) no seu navegador.
