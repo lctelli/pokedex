@@ -13,27 +13,25 @@ Esta aplicação foi criada com o objeto de aprender sobre Javascript, css e est
 - Componentes que mudam de lugar dependendo do formato da tela
 - Os pokémons selecionados são marcados com um "✔️" para facilitar
 - Configuração que faz a primeira letra dos nomes dos Pokémons serem maiúsculas 
-- Os pokémons acompanhados de um emoji para cada tipo:
-```
- Normal 🔘
- Fire 🔥
- Water 💧
- Electric ⚡
- Grass 🌿
- Ice ❄️
- Fighting 🥊
- Poison ☠️
- Ground 🌍
- Flying 🕊️
- Psychic 🌀
- Bug 🐛
- Rock 🗻
- Ghost 👻
- Dragon 🐉
- Dark 🌑
- Steel ⚙️
- Fairy ✨
-```
+- Os pokémons acompanhados de um emoji para cada tipo, que são:
+`Normal 🔘`,
+ `Fire 🔥`,
+ `Water 💧`,
+ `Electric ⚡`,
+ `Grass 🌿`,
+ `Ice ❄️`,
+ `Fighting 🥊`,
+ `Poison ☠️`,
+ `Ground 🌍`,
+ `Flying 🕊️`,
+ `Psychic 🌀`,
+ `Bug 🐛`,
+ `Rock 🗻`,
+ `Ghost 👻`,
+ `Dragon 🐉`,
+ `Dark 🌑`,
+ `Steel ⚙️` e 
+ `Fairy ✨`
 
 ## 🛠️ Tecnologias Utilizadas
 
