@@ -11,9 +11,9 @@ Esta aplicação foi criada com o objeto de aprender sobre Javascript, css e est
 - Lista com o nome dos Pokémons existentes
 - Busca por nome de Pokémon atualizadas em tempo real
 - Componentes que mudam de lugar dependendo do formato da tela
-- Os pokémons selecionados são marcados com um "✔️" para facilitar
+- Os pokémons selecionados são marcados com um "✔️" 
 - Configuração que faz a primeira letra dos nomes dos Pokémons serem maiúsculas 
-- Os pokémons acompanhados de um emoji para cada tipo, que são:
+- Os pokémons são acompanhados de um emoji representando os seus tipos, que são:
 `Normal 🔘`,
  `Fire 🔥`,
  `Water 💧`,
